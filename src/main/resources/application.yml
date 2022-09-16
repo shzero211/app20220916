@@ -1,3 +1,8 @@
 spring:
   profiles:
     active: dev
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    hibernate:
+    database-platform: org.hibernate.dialect.MariaDB103Dialect
